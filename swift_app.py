@@ -80,6 +80,7 @@ if album in RELEASED:
     song = st.sidebar.radio("Select a song", tracklist)
 
     # Display song title
+    st.markdown("---")
     st.subheader(song)
 
     # Plot radar chart of song
