@@ -26,7 +26,6 @@ if len(features) > 4:
 else:
     numerical_features = FEATURE_LIST
 
-
 # Initialize MinMax scaler for scaling the data
 scaler = MinMaxScaler()
 
@@ -47,7 +46,10 @@ if album in RELEASED:
     df_album_scaled[numerical_features] = scaler.fit_transform(df_album[numerical_features])
     
     # Calculate mean values and store in a dataframe
-    mean_values_df = pd.DataFrame(df_album_scaled.groupby('album').mean())
+    mean_values_df = pd.DataFrame(df_album_scaled.groupby('album').mean()).round(3)
+
+    # Round data to 3 decmal points
+    df_album_scaled = df_album_scaled.round(3)
 
     # Plot radar chart of the mean values of features of the whole album 
     plot_radar_chart(mean_values_df, album, album + " (Taylor's Version)", album)
