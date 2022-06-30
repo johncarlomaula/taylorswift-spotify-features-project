@@ -16,6 +16,14 @@ df = pd.read_csv("data/swift_data.csv")
 # Drop unused features
 df = df.drop(["artist", "release_date"], axis = 1)
 
+
+# Write app description
+st.title("Taylor Swift Re-recordings Comparison")
+st.markdown("Welcome! This web app visualizes the [Spotify features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features) of Taylor Swift's re-recorded albums and compares them with the original versions. As of now, only the re-recordings for *Fearless* and *Red* have been released.")
+st.markdown("Data is displayed in interactive polar charts using Plotly. In order to achieve this, the features have been scaled to values between 0 and 1 using a [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#). This allows the data to be displayed in the same axis.")
+st.markdown("Features of the app include the ability compare the average values of an album or directly compare values of an individual song. You can also select which features to display in the polar chart.")
+st.markdown("---")
+
 # Select which features to filter by and drop these features while keeping name and album
 numerical_features = st.sidebar.multiselect("Filter features (minimum of 3)", FEATURE_LIST)
 
