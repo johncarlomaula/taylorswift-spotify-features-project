@@ -1,11 +1,17 @@
 # Analyzing Spotify Features of Taylor Swift's Music
 
-This project consists of two sections:
+**Project Description:** In this project, I retrieve Spotify features of Taylor Swift’s music using the Spotipy library and visualized them for analysis. I also developed a web app that compare the features of her re-recorded music with the original. 
 
-1. [Visualizing the Spotify Features of Taylor Swift's Studio Albums](https://johncarlomaula.github.io/project1_swift)
-2. [App to Comparing the Spotify Features of the Re-recordings](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com)
+For more information, check out my [blog](https://johncarlomaula.github.io/project1_swift) to see a summary write-up of the project. You can also view the app [here](https://johncarlomaula-taylorswift-spotify-features-pr-swift-app-8j8zgx.streamlitapp.com).
 
-### Code
+**Main Goals:**
+- Use the Spotipy package to retrieve the Spotify features of Taylor Swift's music
+- Examine and compare the features of her albums using data visualization tools
+- Compare the features of the re-recordings ("Taylor's Version") with the original 
+
+## 
+
+**Project Overview**
 
 | Code| Description | Link |
 | --- | ----------- | --- |
