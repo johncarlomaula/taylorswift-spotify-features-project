@@ -20,3 +20,13 @@ For more information, check out my [blog](https://johncarlomaula.github.io/proje
 | `swift_app.py` | Code used to build app comparing features of the re-recordings. | [View](https://github.com/johncarlomaula/taylorswift-spotify-features-project/blob/main/swift_app.py) |
 | `swift_functions.py` | Code containing functions used to generate visualizations in the app. | [View](https://github.com/johncarlomaula/taylorswift-spotify-features-project/blob/main/swift_functions.py) |
 
+##
+
+**Links**
+
+Here are the resources I used to complete this project:
+
+1. https://betterprogramming.pub/how-to-extract-any-artists-data-using-spotify-s-api-python-and-spotipy-4c079401bc37
+2. https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+3. https://docs.streamlit.io/library/api-reference
+4. https://plotly.com/python-api-reference/
