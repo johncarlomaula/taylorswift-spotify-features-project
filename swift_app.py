@@ -5,7 +5,7 @@ from datetime import date
 from swift_functions import *
 
 # Define constants including list of albums, released re-recordings, and features
-ALBUM_LIST = ["Taylor Swift", "Fearless", "Speak Now", "Red", "1989", "reputation"]
+ALBUM_LIST = ["Fearless", "Red", "Taylor Swift", "Speak Now", "1989", "reputation"]
 RELEASED = ["Fearless", "Red"]
 FEATURE_LIST = ["length", "popularity", "acousticness", "danceability", "energy", "instrumentalness",
                 "liveness", "loudness", "speechiness", "tempo", "time_signature", "valence"]
